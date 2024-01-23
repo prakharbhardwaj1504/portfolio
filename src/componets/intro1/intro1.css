@@ -6,12 +6,46 @@
 }
 
 .hi{
-    
+    font-family: 'Instrument Serif', serif;
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: .1rem;
     margin-bottom: 4%;
+    margin-top: 2%;
 }
+
+.wave{
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-name: wave-animation;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+@keyframes wave-animation {
+0% {
+    transform: rotate(0deg);
+}
+10% {
+    transform: rotate(14deg);
+}
+20% {
+    transform: rotate(-8deg);
+}
+30% {
+    transform: rotate(14deg);
+}
+40% {
+    transform: rotate(-4deg);
+}
+50% {
+    transform: rotate(10deg);
+}
+60% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(0deg);
+}}
 .full_stack{
     font-family: 'Fira Mono', monospace;
     font-size: 3.5rem;
