@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { annotate } from 'https://unpkg.com/rough-notation?module';
 import "./intro1.css";
 
 class TextScramble {
@@ -90,9 +91,24 @@ function Intro1() {
     next();
   }, []);
 
+useEffect(()=>{
+  const notation1 = document.querySelector('.notation1');
+  const annotation1 = annotate(notation1, { type: 'underline' , color:'green'});
+  setTimeout(()=>{annotation1.show()},15000)
+
+
+const notation2= document.querySelector('.text');
+
+const annotation2 = annotate(notation2, { type: 'box' , color:'red'});
+
+setTimeout(()=>{annotation2.show()},15000)
+ 
+},[])
+ 
+
   return (
     <main className="main">
-      <div className="hi">hi, i'm Prakhar Bhardwaj <span className="wave">👋🏼</span> </div>
+      <div className="hi">hi, i'm <span className="notation1"> Prakhar Bhardwaj </span> <span className="wave">👋🏼</span> </div>
 
       <div className="full_stack">A </div>
       <div className="container full_stack">

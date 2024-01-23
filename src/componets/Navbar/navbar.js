@@ -6,10 +6,10 @@ function navbar(){
     <nav className="navbar">
     <div className="heading">Prakhar Bhardwaj</div>
     <div className="linklist">
-        <div className="nav_link"><a href=""> About</a> </div>
-        <div className="nav_link"><a href=""> Home</a> </div>
-        <div className="nav_link"><a href=""> Contact</a> </div>
-        <div className="nav_link"><a href=""> Resume</a> </div>
+        <div className="nav_link"><a href="window.location.href"> About</a> </div>
+        <div className="nav_link"><a href="window.location.href"> Home</a> </div>
+        <div className="nav_link"><a href="window.location.href"> Contact</a> </div>
+        <div className="nav_link"><a href="window.location.href"> Resume</a> </div>
     </div>
 
     </nav>
