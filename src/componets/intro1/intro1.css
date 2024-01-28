@@ -52,3 +52,58 @@
     font-weight: bold;
     line-height: 4.8rem;
 }
+
+.para {
+    padding: 30px 20px 0;
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-family: Ububtu,sans-serif;
+  }
+
+  .e1 {
+    margin: 16px 0px;
+    animation: reveal 1s ;
+    /* animation-delay: 2s; */
+  }
+  .e2 {
+    margin: 16px 0px;
+    animation: reveal2 1s ;
+    /* animation-delay: 1s; */
+  }
+  .e3{
+    margin: 16px 0px;
+    animation: reveal 1s ;
+    /* animation-delay: 2s; */
+  }
+  
+  
+  @keyframes reveal {
+    0% {
+      transform:  scale(.1) translate(50%,100%);
+      /* opacity: 0; */
+     
+      }
+    
+    100% {
+      transform:  scale(1) translate(0,0);
+
+    }
+  }
+  @keyframes reveal2 {
+    0% {
+      transform: translate(-50%,100%);
+      opacity: 0;
+      
+    }
+    20%{
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0,0);
+    }
+  }
