@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./componets/Navbar/navbar";
 import Intro1 from "./componets/intro1/intro1";
-import About from "./componets/about/about"
+import About from "./componets/about/about";
+import Contact from "./componets/contact/contact"
 
 import {
   BrowserRouter ,
@@ -22,6 +23,10 @@ function App() {
         <Route path='/' element={<Intro1/>}>
           
         </Route>
+        <Route path='/contact' element={<Contact/>}>
+          
+        </Route>
+
       </Routes>
     </BrowserRouter>
     </div>

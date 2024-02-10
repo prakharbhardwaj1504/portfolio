@@ -372,7 +372,7 @@ function About() {
         </div>
 
         <div className="headingwebdevelopment" id="scrolltrigger2">
-          {" "}
+          
           MausamKaHaal , A weahter App
         </div>
         <div className="showcase" id="actonscroll2">

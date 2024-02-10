@@ -9,7 +9,7 @@ function navbar(){
     <div className="linklist">
         <div className="nav_link"><Link to='/'> Home</Link> </div>
         <div className="nav_link"><Link to="/about"> About</Link> </div>
-        <div className="nav_link"><a href="window.location.href"> Contact</a> </div>
+        <div className="nav_link"><Link to="/Contact"> Contact</Link> </div>
         <div className="nav_link"><a href="window.location.href"> Resume</a> </div>
     </div>
 
