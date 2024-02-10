@@ -1,3 +1,120 @@
-.about{
-    color: red;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.headingabout {
+  font-family: "Fira Mono", monospace;
+  font-size: 2.9rem;
+  font-weight: bolder;
+  /* line-height: 4.8rem; */
+  margin: 10px 0px 60px 0px;
+}
+.headingskills {
+  font-family: "Fira Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 10px  0px 20px 0px;
+  /* line-height: 3rem; */
+}
+.headingwebdevelopment {
+  font-family: "Fira Mono", monospace;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+.webarray {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.arr {
+  border: 2px solid #000;
+  border-radius: 8px;
+  mix-blend-mode: multiply;
+  margin: 0.15rem;
+  padding: 0.65rem;
+}
+.arr:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 3px 0px rgb(133, 236, 241),
+    0px 1px 3px 0px rgb(126, 239, 245);
+    mix-blend-mode: multiply;
+  
+}
+.reacticon:hover {
+  transform: scale(1.05);
+  mix-blend-mode: multiply;
+}
+
+.headingtools {
+  font-family: "Fira Mono", monospace;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  /* line-height: 1.5rem; */
+  margin: 20px 0 10px 0 ;
+}
+.webarray2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.gsapimg{
+    mix-blend-mode: multiply;
+}
+.box1 {
+  /* height: 60vh; */
+  width: 55vw;
+  padding: 20px 5px 40px 5px;
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+
+
+.showcase{
+    border: solid 2px grey;
+    height: 100%;
+    border-radius: 10px;
+    width: 50%;
+    /* box-sizing: content-box; */
+}
+.projectimg{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.gitcode{
+    font-size: 17px;
+    margin: 4px 0 60px 0;
+}
+
+.streamingapp{
+    height: 210px;
+}
+.box2{
+    margin: 15px 0 0 0;
+    /* height: 60vh; */
+    width: 55vw;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
