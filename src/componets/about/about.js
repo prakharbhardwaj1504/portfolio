@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import { annotate } from "https://unpkg.com/rough-notation?module";
 import gsap from "gsap";
