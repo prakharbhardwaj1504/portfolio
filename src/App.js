@@ -4,6 +4,7 @@ import Intro1 from "./componets/intro1/intro1";
 import About from "./componets/about/about";
 import Contact from "./componets/contact/contact"
 import Resume from "./componets/resume/resume"
+import Footer from "./componets/footer/footer"
 
 import {
   BrowserRouter ,
@@ -29,6 +30,7 @@ function App() {
         </Route>
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </div>
   );

@@ -1,0 +1,10 @@
+.mainfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+    margin-top: 2rem;
+    padding: 2rem;
+    letter-spacing: .1rem;
+    font-family: Ububtu,sans-serif;
+}

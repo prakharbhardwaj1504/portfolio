@@ -191,7 +191,7 @@ function About() {
         trigger: "#scrolltrigger1",
         toggleActions: "play none none reverse",
         start: "top 85%",
-        markers: true,
+        // markers: true,
       },
     });
   });
@@ -205,7 +205,7 @@ function About() {
         trigger: "#scrolltrigger2",
         toggleActions: "play none none reverse",
         start: "top 85%",
-        markers: true,
+        // markers: true,
       },
     });
   });
@@ -219,7 +219,7 @@ function About() {
         trigger: "#scrolltrigger3",
         toggleActions: "play none none reverse",
         start: "top 85%",
-        markers: true,
+        // markers: true,
       },
     });
   });
@@ -234,7 +234,7 @@ function About() {
         toggleActions: "play none none reverse",
         start: "top 85%",
 
-        markers: true,
+        // markers: true,
       },
     });
   });
