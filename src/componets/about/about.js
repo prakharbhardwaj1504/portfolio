@@ -10,7 +10,7 @@ function About() {
   // GSAP image
   const imagePath = process.env.PUBLIC_URL + "/favicon/gsap.png";
   // quickcommerce image
-  const quickcommerce = process.env.PUBLIC_URL + "/favicon/quickcommerce.jpg";
+  const realtimechatapp = process.env.PUBLIC_URL + "/favicon/realtimechatapp.jpg";
   // weather app image
   const weatherapp = process.env.PUBLIC_URL + "/favicon/weatherapp.png";
   // get organised image
@@ -362,10 +362,10 @@ function About() {
         <div className="headingskills project">Projects</div>
 
         <div className="headingwebdevelopment" id="scrolltrigger1">
-          Quick-commerce Website
+          Real-time Chat Application
         </div>
         <div className="showcase" id="actonscroll1">
-          <img className="projectimg" src={quickcommerce} alt="quickcommerce" />
+          <img className="projectimg" src={realtimechatapp} alt="realtimechatapp" />
         </div>
         <div className="gitcode">
           code<i class="fa fa-github"></i>
