@@ -11,8 +11,8 @@ function About() {
   const imagePath = process.env.PUBLIC_URL + "/favicon/gsap.png";
   // quickcommerce image
   const realtimechatapp = process.env.PUBLIC_URL + "/favicon/realtimechatapp.jpg";
-  // weather app image
-  const weatherapp = process.env.PUBLIC_URL + "/favicon/weatherapp.png";
+  // Generative AI image
+  const realgemini = process.env.PUBLIC_URL + "/favicon/realgemini.jpg";
   // get organised image
   const getorganised = process.env.PUBLIC_URL + "/favicon/getorganised.png";
   // streaming app
@@ -373,10 +373,10 @@ function About() {
 
         <div className="headingwebdevelopment" id="scrolltrigger2">
           
-          MausamKaHaal , A weahter App
+          Generative AI 
         </div>
         <div className="showcase" id="actonscroll2">
-          <img className="projectimg" src={weatherapp} alt="weatherapp" />
+          <img className="projectimg" src={realgemini} alt="weatherapp" />
         </div>
         <div className="gitcode">
           code<i class="fa fa-github"></i>
