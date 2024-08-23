@@ -15,8 +15,8 @@ function About() {
   const realgemini = process.env.PUBLIC_URL + "/favicon/realgemini.jpg";
   // get organised image
   const getorganised = process.env.PUBLIC_URL + "/favicon/getorganised.png";
-  // streaming app
-  const streamingapp = process.env.PUBLIC_URL + "/favicon/streamingapp.png";
+  // realtime tracker app
+  const realtimetracker = process.env.PUBLIC_URL + "/favicon/realtimetracker.png";
 
   // rough notation
   useEffect(() => {
@@ -383,12 +383,12 @@ function About() {
         </div>
 
         <div className="headingwebdevelopment" id="scrolltrigger3">
-          Streaming App
+          Real-time Tracker App
         </div>
         <div className="showcase" id="actonscroll3">
           <img
             className="projectimg streamingapp"
-            src={streamingapp}
+            src={realtimetracker}
             alt="weatherapp"
           />
         </div>
