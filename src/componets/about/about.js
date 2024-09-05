@@ -364,6 +364,7 @@ function About() {
         <div className="headingwebdevelopment" id="scrolltrigger1">
           Real-time Chat Application
         </div>
+        <p className="alert">(Currently in development, with exciting updates on the way.)</p>
         <div className="showcase" id="actonscroll1">
           <img className="projectimg" src={realtimechatapp} alt="realtimechatapp" />
         </div>
@@ -382,7 +383,9 @@ function About() {
           </a>
         </div>
         <div className="gitcode">
+          <a  target='_blank'  href="https://github.com/prakharbhardwaj1504/gemini-Clone">
           code<i class="fa fa-github"></i>
+          </a>
         </div>
 
         <div className="headingwebdevelopment" id="scrolltrigger3" >
@@ -400,7 +403,9 @@ function About() {
           </a>
         </div>
         <div className="gitcode">
+          <a  target='_blank'  href="https://github.com/prakharbhardwaj1504/real-time-tracking-map">
           code<i class="fa fa-github"></i>
+          </a>
         </div>
 
         <div className="headingwebdevelopment" id="scrolltrigger4">
@@ -408,13 +413,15 @@ function About() {
         </div>
 
         <div className="showcase" id="actonscroll4">
-          <a width="50%" href="https://get-organised2.vercel.app/">
+          <a   target='_blank'  width="50%" href="https://get-organised2.vercel.app/">
             <img className="projectimg" src={getorganised} alt="weatherapp" />
           </a>
         </div>
 
         <div className="gitcode">
+          <a target='_blank' href="https://github.com/prakharbhardwaj1504/get-Organised">
           code<i class="fa fa-github"></i>
+          </a>
         </div>
       </div>
     </div>
