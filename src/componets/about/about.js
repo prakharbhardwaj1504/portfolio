@@ -371,21 +371,21 @@ function About() {
           code<i class="fa fa-github"></i>
         </div>
 
-        <div className="headingwebdevelopment" id="scrolltrigger2">
+        <div className="headingwebdevelopment" id="scrolltrigger2" href="https://real-gemini.vercel.app/">
           
           Generative AI 
         </div>
-        <div className="showcase" id="actonscroll2">
+        <div className="showcase" id="actonscroll2"  href="https://real-gemini.vercel.app/" >
           <img className="projectimg" src={realgemini} alt="weatherapp" />
         </div>
         <div className="gitcode">
           code<i class="fa fa-github"></i>
         </div>
 
-        <div className="headingwebdevelopment" id="scrolltrigger3">
-          Real-time Tracker App
+        <div className="headingwebdevelopment" id="scrolltrigger3" href="https://real-time-tracking-map.vercel.app/">
+          Real-time Location Tracker App
         </div>
-        <div className="showcase" id="actonscroll3">
+        <div className="showcase" id="actonscroll3" href="https://real-time-tracking-map.vercel.app/"> 
           <img
             className="projectimg streamingapp"
             src={realtimetracker}
