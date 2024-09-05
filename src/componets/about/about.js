@@ -372,28 +372,32 @@ function About() {
         </div>
 
         <div className="headingwebdevelopment" id="scrolltrigger2" >
-        <a target='_blank' href="https://real-gemini.vercel.app/"></a>
+        <a target='_blank' href="https://real-gemini.vercel.app/">
           Generative AI 
+          </a>
         </div>
         <div className="showcase" id="actonscroll2"   >
-        <a target='_blank' href="https://real-gemini.vercel.app/"></a>
+        <a target='_blank' href="https://real-gemini.vercel.app/">
           <img className="projectimg" src={realgemini} alt="weatherapp" />
+          </a>
         </div>
         <div className="gitcode">
           code<i class="fa fa-github"></i>
         </div>
 
         <div className="headingwebdevelopment" id="scrolltrigger3" >
-        <a target='_blank' href="https://real-time-tracking-map.vercel.app/"></a>
+        <a target='_blank' href="https://real-time-tracking-map.vercel.app/">
           Real-time Location Tracker App
+          </a>
         </div>
         <div className="showcase" id="actonscroll3"> 
-        <a target='_blank' href="https://real-time-tracking-map.vercel.app/"></a>
+        <a target='_blank' href="https://real-time-tracking-map.vercel.app/">
           <img
             className="projectimg streamingapp"
             src={realtimetracker}
             alt="weatherapp"
           />
+          </a>
         </div>
         <div className="gitcode">
           code<i class="fa fa-github"></i>
